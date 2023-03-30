@@ -1,11 +1,15 @@
 
+html{
+    font-size: 20px;
+}
 body{
     padding: 0;
     margin: 0;
     /* background-color: #99CCFF; */
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x: hidden;
     font-family: 'Sono', sans-serif;
+    height: 100vh;
 }
 nav{
     background-color: #5c7c9c;
@@ -113,7 +117,7 @@ nav ul li button:hover{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 680px;
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
     z-index: 5;
@@ -253,6 +257,19 @@ nav ul li button:hover{
     
     transform: scale(1.02);
 }
+.close-contacts{
+    height: 20px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-style: none;
+    font-size: 35px;
+}
+.close-contacts:hover{
+    cursor: pointer;
+}
+
 .contact-2 form textarea{
     border-radius: 20px;
     width: 300px;
@@ -280,6 +297,14 @@ nav ul li button:hover{
     display: flex;
     list-style: none;
     padding-left: 20px;
+}
+.list3{
+    display: flex;
+    list-style: none;
+    display: none;
+}
+.list3 li{
+    margin: 10px;
 }
 .list2 li{
     margin: 10px;
@@ -313,7 +338,10 @@ nav ul li button:hover{
     text-decoration: none;
     color: white;
 }
-@media  screen and (max-width: 600px) {
+@media only screen and (max-width: 360px) {
+    body{
+        overflow-x: hidden;
+    }
     nav{
         width: 50px;
     }
@@ -345,42 +373,170 @@ nav ul li button:hover{
         display: flex;
     }
     .main2 img{
-        margin-left: 100px;
-        height: 250px;
+        margin-left: 35px;
+        height: 200px;
     }
     .main2 h1{
-        margin-left: 45px;
+        margin-left: 15px;
+        font-size: 25px
     }
     .main2 p{
-        margin-left: 90px;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    .list3{
+        display: flex;
     }
     .about{
         position: absolute;
-        width: 380px;
-        margin-left: 90px;
+        width: 300px;
+        margin-left: 10px;
+        height: 650px;
+    }
+    .about p{
+        font-size: 15px;
+        line-height: 28px;
     }
     .gip1{
         display: none;
     }
     .close-about{
-        margin-left: 340px;
+        margin-left: 250px;
+        margin-top: -10px;
     }
     .projects{
-        width: 380px;
-        margin-left: 90px;
+        width: 320px;
+        margin-left: 10px;
     }
     .project-ss1{
         display: block;
     }
+    .close-projects{
+        margin-left: 110px;
+    }
     .contact{
         width: 380px;
-        margin-left: 90px;
+        margin-left: 10px;
     }
     .contact-1{
         display: none;
     }
     .contact-2{
         border-radius: 20px;
+        width: 300px;
+    }
+    .contact-2 form input{
+        width: 250px;
+    }
+    .list2{
+        padding-left: 5px;
+    }
+    .contact-2 form textarea{
+        width: 250px;
+    }
+    .con-phone{
+        display: block;
+    }
+}
+@media (min-width: 360px) and (max-width: 576px){
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        width: 50px;
+    }
+    nav span{
+        display: none;
+    }
+    nav ul li button:hover{
+        transform: translateX(0);
+    }
+    nav ul li{
+        margin-top: 50px;
+    }
+    nav hr{
+        display: none;
+    }
+    nav img{
+        height: 20px;
+    }
+    nav ul{
+        margin-left: -40px;
+    }
+    .copy{
+        display: none;
+    }
+    .dev{
+        display: none;
+    }
+    .main{
+        display: flex;
+    }
+    .main2 img{
+        margin-left: 65px;
+        height: 250px;
+    }
+    .main2 h1{
+        margin-left: 45px;
+        font-size: 35px
+    }
+    .main2 p{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .list3{
+        display: flex;
+        margin-left: 40px;
+    }
+    .list3 li{
+        margin: 20px;
+    }
+    .about{
+        position: absolute;
+        width: 400px;
+        margin-left: 30px;
+        height: 650px;
+    }
+    .about p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .gip1{
+        display: none;
+    }
+    .close-about{
+        margin-left: 350px;
+        margin-top: -10px;
+    }
+    .projects{
+        width: 400px;
+        margin-left: 30px;
+    }
+    .project-ss1{
+        display: block;
+    }
+    .close-projects{
+        margin-left: 150px;
+    }
+    .contact{
+        width: 380px;
+        margin-left: 10px;
+    }
+    .contact-1{
+        display: none;
+    }
+    .contact-2{
+        border-radius: 20px;
+        width: 300px;
+    }
+    .contact-2 form input{
+        width: 250px;
+    }
+    .list2{
+        padding-left: 5px;
+    }
+    .contact-2 form textarea{
+        width: 250px;
     }
     .con-phone{
         display: block;
