@@ -6,7 +6,7 @@ body{
     padding: 0;
     margin: 0;
     /* background-color: #99CCFF; */
-    overflow-y: hidden; 
+/*     overflow-y: hidden;  */
     overflow-x: hidden;
     font-family: 'Sono', sans-serif;
     height: 100vh;
