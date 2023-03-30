@@ -9,7 +9,7 @@ body{
     overflow-y: hidden; 
     overflow-x: hidden;
     font-family: 'Sono', sans-serif;
-    height: 100vh;
+    height: 100%;
 }
 nav{
     background-color: #5c7c9c;
