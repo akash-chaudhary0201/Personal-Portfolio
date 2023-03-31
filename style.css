@@ -64,6 +64,8 @@ nav ul li button:hover{
 .main{
     display: flex;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .main2{
     height: 100%;
@@ -90,7 +92,7 @@ nav ul li button:hover{
     width: 880px;
     margin-left: 410px;
     border-radius: 20px;
-    margin-top: -600px;
+    margin-top: 20px;
     height: 590px;
     z-index: 10;
 }
@@ -140,7 +142,7 @@ nav ul li button:hover{
     width: 880px;
     margin-left: 410px;
     border-radius: 20px;
-    margin-top: -615px;
+    margin-top: 20px;
     height: 600px;
     z-index: 10;
     overflow-x: hidden;
@@ -186,7 +188,7 @@ nav ul li button:hover{
     display: flex;
     border-radius: 200px;
     margin-left: 450px;
-    margin-top: -605px;
+    margin-top: 20px;
     height: 600px;
     z-index: 10;
 }
@@ -342,4 +344,9 @@ nav ul li button:hover{
 .mail-list a{
     text-decoration: none;
     color: white;
+}
+@media screen and (max-width: 320px){
+    nav{
+        display: none;
+    }
 }
