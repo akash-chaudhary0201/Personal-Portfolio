@@ -6,7 +6,7 @@ body{
     padding: 0;
     margin: 0;
     /* background-color: #99CCFF; */
-    overflow-y: hidden; 
+    overflow-y: hidden;
     overflow-x: hidden;
     font-family: 'Sono', sans-serif;
     height: 100vh;
@@ -17,7 +17,7 @@ nav{
     height: 700px;
     font-family: 'Sono', sans-serif;
 }
-nav hr{ 
+nav hr{
     border-radius: 50%;
     width: 250px;
     margin-left: 8px;
@@ -88,7 +88,7 @@ nav ul li button:hover{
     width: 880px;
     margin-left: 410px;
     border-radius: 20px;
-    margin-top: -655px;
+    margin-top: -680px;
     height: 590px;
     z-index: 10;
 }
@@ -138,8 +138,8 @@ nav ul li button:hover{
     width: 880px;
     margin-left: 410px;
     border-radius: 20px;
-    margin-top: -630px;
-    height: 500px;
+    margin-top: -680px;
+    height: 590px;
     z-index: 10;
     overflow-x: hidden;
     overflow-y: auto;
@@ -184,8 +184,8 @@ nav ul li button:hover{
     display: flex;
     border-radius: 200px;
     margin-left: 450px;
-    margin-top: -600px;
-    height: 500px;
+    margin-top: -680px;
+    height: 590px;
     z-index: 10;
 }
 .contact-1{
@@ -196,7 +196,7 @@ nav ul li button:hover{
 }
 .contact-1 h1 {
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 50px;
 }
 .contact-1 p{
@@ -218,18 +218,19 @@ nav ul li button:hover{
 }
 .contact-2 h1{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 50px;
     color: #fff;
 } 
 .contact-2 form{
     margin-left: 20px;
+    margin-top: 50px;
 }
 .contact-2 form input{
     border-radius: 20px;
     border: 2px solid white;
     width: 300px;
-    height: 30px;
+    height: 40px;
 }
 .contact-2 form input:focus{
     border: 2px solid white;
@@ -273,7 +274,7 @@ nav ul li button:hover{
 .contact-2 form textarea{
     border-radius: 20px;
     width: 300px;
-    height: 60px;
+    height: 90px;
     border: 2px solid white;
     font-size: 15px;
     font-family: 'Sono', sans-serif;
@@ -298,17 +299,18 @@ nav ul li button:hover{
     list-style: none;
     padding-left: 20px;
 }
-.list3{
+.list6{
     display: flex;
     list-style: none;
     display: none;
 }
-.list3 li{
+.list6 li{
     margin: 10px;
 }
 .list2 li{
-    margin: 10px;
+    margin: 30px;
 }
+
 .hidden1{
     display: none;
 }
@@ -322,6 +324,7 @@ nav ul li button:hover{
     backdrop-filter: blur(2px);
     z-index: 5;
 }
+
 .con-phone{
     display: none;
 }
@@ -337,208 +340,4 @@ nav ul li button:hover{
 .mail-list a{
     text-decoration: none;
     color: white;
-}
-@media only screen and (max-width: 360px) {
-    body{
-        overflow-x: hidden;
-    }
-    nav{
-        width: 50px;
-    }
-    nav span{
-        display: none;
-    }
-    nav ul li button:hover{
-        transform: translateX(0);
-    }
-    nav ul li{
-        margin-top: 50px;
-    }
-    nav hr{
-        display: none;
-    }
-    nav img{
-        height: 20px;
-    }
-    nav ul{
-        margin-left: -40px;
-    }
-    .copy{
-        display: none;
-    }
-    .dev{
-        display: none;
-    }
-    .main{
-        display: flex;
-    }
-    .main2 img{
-        margin-left: 35px;
-        height: 200px;
-    }
-    .main2 h1{
-        margin-left: 15px;
-        font-size: 25px
-    }
-    .main2 p{
-        margin-left: 40px;
-        font-size: 15px;
-    }
-    .list3{
-        display: flex;
-    }
-    .about{
-        position: absolute;
-        width: 300px;
-        margin-left: 10px;
-        height: 650px;
-    }
-    .about p{
-        font-size: 15px;
-        line-height: 28px;
-    }
-    .gip1{
-        display: none;
-    }
-    .close-about{
-        margin-left: 250px;
-        margin-top: -10px;
-    }
-    .projects{
-        width: 320px;
-        margin-left: 10px;
-    }
-    .project-ss1{
-        display: block;
-    }
-    .close-projects{
-        margin-left: 110px;
-    }
-    .contact{
-        width: 380px;
-        margin-left: 10px;
-    }
-    .contact-1{
-        display: none;
-    }
-    .contact-2{
-        border-radius: 20px;
-        width: 300px;
-    }
-    .contact-2 form input{
-        width: 250px;
-    }
-    .list2{
-        padding-left: 5px;
-    }
-    .contact-2 form textarea{
-        width: 250px;
-    }
-    .con-phone{
-        display: block;
-    }
-}
-@media (min-width: 361px) and (max-width: 576px){
-    body{
-        overflow-x: hidden;
-    }
-    nav{
-        width: 50px;
-    }
-    nav span{
-        display: none;
-    }
-    nav ul li button:hover{
-        transform: translateX(0);
-    }
-    nav ul li{
-        margin-top: 50px;
-    }
-    nav hr{
-        display: none;
-    }
-    nav img{
-        height: 20px;
-    }
-    nav ul{
-        margin-left: -40px;
-    }
-    .copy{
-        display: none;
-    }
-    .dev{
-        display: none;
-    }
-    .main{
-        display: flex;
-    }
-    .main2 img{
-        margin-left: 65px;
-        height: 250px;
-    }
-    .main2 h1{
-        margin-left: 45px;
-        font-size: 35px
-    }
-    .main2 p{
-        margin-left: 50px;
-        font-size: 25px;
-    }
-    .list3{
-        display: flex;
-        margin-left: 40px;
-    }
-    .list3 li{
-        margin: 20px;
-    }
-    .about{
-        position: absolute;
-        width: 400px;
-        margin-left: 30px;
-        height: 650px;
-    }
-    .about p{
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .gip1{
-        display: none;
-    }
-    .close-about{
-        margin-left: 350px;
-        margin-top: -10px;
-    }
-    .projects{
-        width: 400px;
-        margin-left: 30px;
-    }
-    .project-ss1{
-        display: block;
-    }
-    .close-projects{
-        margin-left: 150px;
-    }
-    .contact{
-        width: 380px;
-        margin-left: 10px;
-    }
-    .contact-1{
-        display: none;
-    }
-    .contact-2{
-        border-radius: 20px;
-        width: 300px;
-    }
-    .contact-2 form input{
-        width: 250px;
-    }
-    .list2{
-        padding-left: 5px;
-    }
-    .contact-2 form textarea{
-        width: 250px;
-    }
-    .con-phone{
-        display: block;
-    }
 }
