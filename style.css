@@ -438,7 +438,7 @@ nav ul li button:hover{
         display: block;
     }
 }
-@media (min-width: 360px) and (max-width: 576px){
+@media (min-width: 361px) and (max-width: 576px){
     body{
         overflow-x: hidden;
     }
